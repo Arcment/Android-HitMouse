@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/start"
+     >
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="150.0dp"
+        android:layout_height="80.0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp" 
+        android:text="开始游戏"
+        android:textSize="25sp"
+        android:shape="@drawable/shape"/>
+    
+
+</RelativeLayout>
